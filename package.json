@@ -1,0 +1,45 @@
+{
+  "name": "kitty-getter",
+  "version": "0.1.0",
+  "description": "Provides cat faces given urls",
+  "author": "Chris Lee <chris@indico.io>",
+  "contributors": [
+    {
+      "name": "Chris Lee",
+      "email": "chris@indico.io"
+    }
+  ],
+  "scripts": {
+    "test": "",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sihrc/kittyface"
+  },
+  "bugs": {
+    "url": "https://github.com/sihrc/kittyface/issues"
+  },
+  "keywords": [
+    "kitty",
+    "image",
+    "face"
+  ],
+  "engines": {
+    "node": "^0.12.x",
+    "npm": "^2.1.x"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "dotenv": "^1.2.0",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "fs": "0.0.2",
+    "lwip": "0.0.8",
+    "morgan": "^1.6.1",
+    "path": "^0.12.7",
+    "request": "^2.65.0"
+  },
+  "license": "MIT"
+}
