@@ -1,0 +1,4 @@
+[submodule "indikitty"]
+	path = indikitty
+	url = https://github.com/sihrc/indikitty.git
+	branch = master
